@@ -30,146 +30,69 @@ body{
     right: 40px;
 }
 
-
-@media screen and (max-width: 600px) {
-    .navbar ul li {
-        display: block;
-        margin: 10px 0;
-    }
-}
-
-#services {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-#services .box {
-    display: flex;
-    flex-direction: column;
-    padding: 8px;
-    margin: 8px;
+.rd1{
+    padding-right: 22px !important;
+    padding-left: 22px !important;
+    padding: 6px;
+    color: #003D5D;
+    border: 2px solid #003D5D;
 
 }
-
-#services .box img {
-    height: 370px;
-    width: 316;
-    display: block;
-    margin: auto;
+.rd2{
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+    padding: 6px;
+    color: #003D5D;
+    border: 2px solid #003D5D;
 }
-
-.h-primary {
-    font-size: 2.8rem;
-    padding: 2px;
+.dol1{
+    color: #003D5D;
 }
-
-.h-secondary {
-    font-size: 1.4rem;
-    padding: 12px;
+.ll1{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
 }
-
-.center {
+.ll2{
+    font-size: 15px;
     text-align: center;
 }
-
-.leftal {
-    font-size: 15px;
-    text-align: left;
-    margin-bottom: 30px;
-    margin-left: 8px;
+.mkl{
+    background-color: #003D5D !important;
 }
-.leftal1 {
-    font-weight: 400px;
-    font-size: 20px;
-    text-align: left;
-    margin-bottom: 16px;
-    margin-left: 8px;
+.ipu1{
+    background-color: #003D5D !important;
+    border: 1px solid white !important;
 }
-.kji{
-    padding-top: 40px;
+.ipu3{
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    background-color: #003D5D !important;
+    border: 1px solid white !important;
+    color: white !important;
 }
-
-.blue {
-    color: #003D5D;
-    margin-bottom: 16px;
-    margin-left: 8px;
-}
-
-.btn {
-    border: 1px solid #003D5D;
-    color: #003D5D;
-    background: none;
-    padding: 4px;
-    margin-bottom: 8px;
-    margin-left: 8px;
-    width: 140px;
-    height: 40px;
-    cursor: pointer;
-}
-
-.btn2 {
-    border: 1px solid #003D5D;
-    background: none;
-    color: #003D5D;
-    padding: 4px;
-    width: 140px;
-    height: 40px;
-    cursor: pointer;
-}
-
-.view {
-    display: flex;
-    justify-content: center;
-}
-
-.shadow {
-    box-shadow: 2px 2px 20px #00000024;
-}
-
-.bottom {
-    height: 700px;
-    display: flex;
-    background-color: antiquewhite;
-    margin-top: 40px;
-    padding-top: 60px;
-
-}
-
-.form {
-    height: 600px;
+.qwe1{
+    top: 100px;
     position: absolute;
-    right: 10px;
-    background-color: #003D5D;
-    color: white;
-    padding: 40px 40px 0px 40px;
-    display: block;
-    justify-content: left
-    
+    left: 100px;
 }
-
-.lab {
-    width: 469px;
-    height: 44px;
-    border: 1px solid white;
-    background: none;
+.qwe2{
+    margin: 10px;
+    font-size: 30px;
 }
-
-.com {
-    margin-top: 8px;
-    margin-bottom: 8px;
+.qwe3{
+    margin: 10px;
 }
-
-.submit {
-    width: 230px;
-    height: 40px;
-    color: white;
-    border: 1px solid white;
-    background: none;
-    cursor: pointer;
-    align-items: start;
-}
-
-.new {
-    padding: 0px 70px;
-}
+ .qwe4{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+ .qwe5{
+padding-top: 60px;
+    margin: 10px;
+ }
+ .mge{
+    background-image: url(images/Rectangle\ 101.png) !important;
+ }
