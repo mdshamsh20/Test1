@@ -1,0 +1,175 @@
+body{
+    font-family: 'Montserrat';
+}
+
+
+.lore1{
+    background-color: #003D5D;
+}
+.up1{
+    height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+    background-image: url(images/Rectangle\ 1.png);
+}
+.gp1{
+    column-gap: 60px;
+}
+.gp1 a:hover{
+    text-decoration: underline;
+    text-underline-offset: 9px;
+
+}
+.hd1{
+    position: relative;
+    top: 120px;
+    left: 30px;
+}
+.oh1{
+    position: absolute;
+    right: 40px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+#services {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#services .box {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin: 8px;
+
+}
+
+#services .box img {
+    height: 370px;
+    width: 316;
+    display: block;
+    margin: auto;
+}
+
+.h-primary {
+    font-size: 2.8rem;
+    padding: 2px;
+}
+
+.h-secondary {
+    font-size: 1.4rem;
+    padding: 12px;
+}
+
+.center {
+    text-align: center;
+}
+
+.leftal {
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 8px;
+}
+.leftal1 {
+    font-weight: 400px;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 16px;
+    margin-left: 8px;
+}
+.kji{
+    padding-top: 40px;
+}
+
+.blue {
+    color: #003D5D;
+    margin-bottom: 16px;
+    margin-left: 8px;
+}
+
+.btn {
+    border: 1px solid #003D5D;
+    color: #003D5D;
+    background: none;
+    padding: 4px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn2 {
+    border: 1px solid #003D5D;
+    background: none;
+    color: #003D5D;
+    padding: 4px;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+}
+
+.shadow {
+    box-shadow: 2px 2px 20px #00000024;
+}
+
+.bottom {
+    height: 700px;
+    display: flex;
+    background-color: antiquewhite;
+    margin-top: 40px;
+    padding-top: 60px;
+
+}
+
+.form {
+    height: 600px;
+    position: absolute;
+    right: 10px;
+    background-color: #003D5D;
+    color: white;
+    padding: 40px 40px 0px 40px;
+    display: block;
+    justify-content: left
+    
+}
+
+.lab {
+    width: 469px;
+    height: 44px;
+    border: 1px solid white;
+    background: none;
+}
+
+.com {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.submit {
+    width: 230px;
+    height: 40px;
+    color: white;
+    border: 1px solid white;
+    background: none;
+    cursor: pointer;
+    align-items: start;
+}
+
+.new {
+    padding: 0px 70px;
+}
